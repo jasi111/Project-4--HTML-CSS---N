@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+/* Navbar */
+nav {
+  margin: 0 auto;
+  margin-top: 3%;
+  position: relative;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: inline;
+  position: absolute;
+  top: -25%;
+  left: 15%;
+  color: #bebebe;
+  font-family:"poppins", "sans-serif";
+}
+
+nav ul :hover {
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav .button-group {
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #5955b3;
+  color: #ffffff;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+/* Banner */
+
+.banner-container {
+  position: relative;
+}
+
+/* banner left side */
+
+.banner-container > div {
+  width: 40%;
+  margin-top: 10%;
+}
+
+.banner-container > div > p {
+  margin-right: 29%;
+  color: #bebebe;
+  padding-bottom: 50px;
+}
+.heading-text {
+  font-family: "poppins", "sans-serif";
+  color: #3c2f60;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.heading-text span {
+  color: #5955b3;
+}
+
+/* banner right side */
+
+.banner-container img {
+  position: absolute;
+  right: -10%;
+  top: -30%;
+  width: 60%;
+}
