@@ -2,4 +2,4 @@
 Web page created using HTML and CSS.
 
 ### Screenshot
-![Image-1](./thumbnail.png)
+![Image-1](./4.png)
